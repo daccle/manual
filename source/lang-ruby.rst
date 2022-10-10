@@ -22,7 +22,7 @@ Versions
 Release types
 -------------
 
-We provide different releases and apply security updates on a regular basis. Currently, these Ruby versions are available: 2.5, 2.6, 2.7, 3.0 and 3.1.
+We provide different releases and apply security updates on a regular basis. Currently available versions are [listed below](#update-policy).
 
 Standard version
 ----------------
@@ -36,8 +36,6 @@ Use ``uberspace tools version list ruby`` to show all selectable versions:
 .. code-block:: bash
 
   [isabell@stardust ~]$ uberspace tools version list ruby
-  - 2.5
-  - 2.6
   - 2.7
   - 3.0
   - 3.1
@@ -75,10 +73,6 @@ We update all versions on a regular basis. Once the `support <https://www.ruby-l
 +--------+----------------------+------------------+
 | Branch | State                | Supported Until  |
 +========+======================+==================+
-| 2.5    | eol                  | 2021-03-31       |
-+--------+----------------------+------------------+
-| 2.6    | eol                  | 2022-03-31       |
-+--------+----------------------+------------------+
 | 2.7    | normal maintenance   | 2023-03-31       |
 +--------+----------------------+------------------+
 | 3.0    | normal maintenance   | 2024-03-31       |
